@@ -35,6 +35,8 @@ hr {
 
 
 
+
+
 #portrait > img{
   display: block;
   margin:5% auto 0 auto;
@@ -240,6 +242,9 @@ height: 100%;
 }
 
   @media (max-width: 899px) {
+    .navbar{
+      height: 15%;
+    }
     .bioSpace {
       padding-top: 8%;
       margin-left: 5%;
