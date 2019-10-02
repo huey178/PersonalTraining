@@ -1,0 +1,178 @@
+<%- include("header") -%>
+
+
+<form action="mailto:tylerhughes08@comcast.net" method="post" id = "form" enctype="text/plain">
+  <div class="contactHead">
+    <h1>Contact me</h1>
+  </div>
+
+  <div id = "info">
+
+
+  <div class="row">
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="name" placeholder="Name">
+    </div>
+
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="phoneNumber" placeholder="Phone Number">
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="city" placeholder="City">
+    </div>
+
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="state" placeholder="State">
+    </div>
+
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="height" placeholder="Height ex) 5' 11">
+    </div>
+
+    <div class="col-lg-6">
+      <input class="form-control" type="text" name="weight" placeholder="Weight (lbs)">
+    </div>
+    </div>
+<div class="row">
+
+
+    <div class="col-lg-12">
+      <input class="form-control age" type="text" name="age" value="" placeholder="Age">
+    </div>
+    </div>
+    </div>
+
+  <div class="row">
+
+    <div class="col-lg-12 form-group">
+
+      <div class="row">
+
+      <label for="experience" class = "centerText">How would you rate your level of experience?</label>
+
+      </div>
+      <div id ="center"  class="row">
+
+
+
+
+      <label for="experience">Beginner</label>
+
+      <input type="range" class="custom-range" min="0" max="10" name = "experience">
+
+      <label for="experience">Advanced</label>
+
+
+</div>
+    </div>
+  </div>
+
+  <div class="row">
+  <label  class="centerText">What type of training are you seeking?</label>
+  </div>
+
+
+<div class="row cent">
+
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="general" value="">
+      <label for="general">General Fitness</label>
+    </div>
+
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="strength" value="">
+      <label for="strength">Strength</label>
+    </div>
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="hypertrophy" value="">
+      <label for="hypertrophy">Hypertrophy</label>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <label class = "centerText">Which program are you interested in? (Check One)</label>
+</div>
+
+  <div class="row cent">
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="program" value="">
+      <label for="program">Program Only</label>
+    </div>
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="online" value="">
+      <label for="online">Online Coaching</label>
+    </div>
+
+    <div class="col-sm-12 col-lg-4 form-group">
+      <input type="checkbox" name="inPerson" value="">
+      <label for="inPerson">In-person Coaching</label>
+    </div>
+
+
+
+
+
+  </div>
+
+<div class="row">
+  <label for="goals" class = "centerText">What are your goals?</label>
+</div>
+  <div class="row">
+    <div class="col form-group">
+      <textarea name="goals" rows="2" cols="100%" class="form-control"></textarea>
+    </div>
+  </div>
+
+<div class="row">
+  <label for="injuries" class = "centerText">Do you have any injuries that I should know about?</label>
+</div>
+  <div class="row">
+    <div class="col form-group">
+      <textarea name="injuries" rows="2" cols="100%" class="form-control"></textarea>
+    </div>
+  </div>
+
+<div class="row">
+  <label for="goals" class = "centerText">Do you have anymore questions?</label>
+</div>
+  <div class="row">
+    <div class="col form-group">
+      <textarea name="questions" rows="2" cols="100%" class="form-control"></textarea>
+    </div>
+  </div>
+
+  <div class="row centButton">
+
+      <input type="submit" name="submit" value="Submit"  class = "btn btn-primary">
+
+
+
+
+  </div>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+<%- include("footer") -%>
