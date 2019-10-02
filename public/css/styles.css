@@ -242,9 +242,7 @@ height: 100%;
 }
 
   @media (max-width: 899px) {
-    .navbar{
-      height: 15%;
-    }
+  
     .bioSpace {
       padding-top: 8%;
       margin-left: 5%;
