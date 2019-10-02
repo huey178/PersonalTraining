@@ -53,6 +53,6 @@ app.get("/contact-me", function(req,res){
 
 
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT, function(){
   console.log("This server is now live!");
 });
