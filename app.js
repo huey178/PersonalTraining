@@ -22,37 +22,6 @@ app.get("/contact-me", function(req,res){
   res.render("contact-me");
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen(process.env.PORT, function(){
   console.log("This server is now live!");
 });
